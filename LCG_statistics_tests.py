@@ -1,5 +1,5 @@
 from scipy.stats import chisquare, kstest
-from berlin_wall_fall_LCG import PRNG
+from LCG_berlin_wall_fall import PRNG
 
 dices_results = []
 for i in range(0,1000):

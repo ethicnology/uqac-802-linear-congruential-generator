@@ -2,7 +2,7 @@ import sys, argparse, random, math
 import tidynamics
 import matplotlib.pyplot as plt
 import numpy as np
-from part1 import PRNG
+from LCG_berlin_wall_fall import PRNG
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-n", "--steps", type=int, help="Specify how many steps to simulate", default=1)
